@@ -26,4 +26,9 @@ class MedicineController(@Autowired private val medicineRepository: MedicineRepo
     fun deleteMedicine(@PathVariable id: String) {
         medicineRepository.deleteById(id)
     }
+
+    @GetMapping("/")
+    fun getAllMedicines(): List<Medicine> {
+        return medicineRepository.findAll()
+    }
 }
