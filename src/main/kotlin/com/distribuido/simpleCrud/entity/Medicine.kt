@@ -8,7 +8,6 @@ data class Medicine(
     @PrimaryKey
     var id: String,
     val name: String,
-    val description: String,
     val price: Double,
     var amount : Int
 )
