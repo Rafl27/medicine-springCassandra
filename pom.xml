@@ -38,11 +38,25 @@
 			<groupId>org.jetbrains.kotlin</groupId>
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>com.datastax.astra</groupId>
+			<artifactId>astra-spring-boot-starter</artifactId>
+			<version>0.1.13</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.stargate.grpc</groupId>
+			<artifactId>grpc-proto</artifactId>
+			<version>1.0.41</version>
+		</dependency>
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-netty-shaded</artifactId>
+			<version>1.41.0</version>
 		</dependency>
 	</dependencies>
 
