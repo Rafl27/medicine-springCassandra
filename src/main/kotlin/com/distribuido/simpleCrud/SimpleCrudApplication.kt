@@ -11,10 +11,10 @@ import java.util.concurrent.TimeUnit
 @SpringBootApplication
 class SimpleCrudApplication
 
-private const val ASTRA_DB_ID = "1ff8beff-07ba-47fd-9134-82d047d66ecb-1"
+private const val ASTRA_DB_ID = "28624d8c-f479-4478-8c65-5766b1858f54-1"
 private const val ASTRA_DB_REGION = "us-east1"
-private const val ASTRA_TOKEN = "AstraCS:NRYlqlZoGUsQUkePzvucsSqo:c916d08ecb82ce619a9be619521c918b36280a980372a348d5ab2099a8f97e93"
-private const val ASTRA_KEYSPACE = "remedio"
+private const val ASTRA_TOKEN = "AstraCS:JIpKsdAeqnZUHaHZIyLGrLPt:fa3d70874301826fc3abb0191cb553c08df1bcd4cef07474c8caa9ef3063febf"
+private const val ASTRA_KEYSPACE = "medicine"
 //fun main(args: Array<String>) {
 //	runApplication<SimpleCrudApplication>(*args)
 //}
