@@ -1,3 +1,6 @@
+package com.distribuido.simpleCrud.controller
+
+import com.distribuido.simpleCrud.entity.Medicine
 import com.distribuido.simpleCrud.repository.MedicineRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
@@ -29,6 +32,6 @@ class MedicineController(@Autowired private val medicineRepository: MedicineRepo
 
     @GetMapping("/")
     fun getAllMedicines(): List<Medicine> {
-        return medicineRepository.findAll()
+        return medicineRepository.findAll().toList()
     }
 }
